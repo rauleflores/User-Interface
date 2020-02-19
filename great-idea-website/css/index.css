@@ -64,10 +64,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 5%;
+	width: 95%;
+}
 header{
-	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin: 5%;
+	width: 75%;
+}
+.headcont{
+	text-align: left;
+	padding: 10px;
+	width: 49%;
+	margin: 0;
+}
+.headcont2{
 	display: inline;
 }
 header a{
 	text-decoration: none;
+	color: slategray;
+	margin: 0%;
+	display: inline-block;
+}
+.cont1{
+	font-size: 60px;
+	text-align: center;
+	display: inline-block;
+	width: 60%;
+	margin: 0 5% 5% 5%;
+}
+.subcont1{
+	display: inline-block;
+	margin: 0 15% 0 0;
+}
+.subcont2{
+	display: inline;
+	margin: 0 0 0 1%;
+}
+.cont1 h1{
+	font-size: 80px;
+	font-weight: 580;
+}
+.subcont1 button{
+	background-color: white;
+	border: 1px solid black;
+	height: 38px;
+	width: 190px;
+	font-size: 18px;
+}
+.maincontent{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.maincontent .container{
+	display: inline;
+	margin: 0 10%;
+}
+
+
+
+
+
+
+footer{
+	margin: 50px 0 100px 0;
+}
+footer .contact{
+	width: 12%;
+}
+footer .copy{
+	text-align: center;
 }
