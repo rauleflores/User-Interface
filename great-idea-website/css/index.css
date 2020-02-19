@@ -65,75 +65,84 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-	margin: 5%;
-	width: 95%;
+	margin: 40px 5% 60px;
 }
+
+/* Header */
 header{
 	text-align: center;
+	width: 60%;
+	padding-bottom: 50px;
+}
+header .headcont .headcol{
 	display: inline-block;
-	margin: 5%;
-	width: 75%;
-}
-.headcont{
-	text-align: left;
-	padding: 10px;
 	width: 49%;
-	margin: 0;
 }
-.headcont2{
-	display: inline;
-}
-header a{
+header .headcont .headcol a{
 	text-decoration: none;
 	color: slategray;
-	margin: 0%;
-	display: inline-block;
+	padding: 0 10px;
 }
-.cont1{
-	font-size: 60px;
-	text-align: center;
-	display: inline-block;
+header .headcont img{
+	padding: 0 0 0 300px;
+}
+
+/* Subhead */
+.subhead{
 	width: 60%;
-	margin: 0 5% 5% 5%;
+	padding: 0 5% 5% 0;
 }
-.subcont1{
+.subhead .subcont .col{
+	width: 49%;
 	display: inline-block;
-	margin: 0 15% 0 0;
+	padding: 40px 5px 30px 20%;
+	text-align: center;
 }
-.subcont2{
-	display: inline;
-	margin: 0 0 0 1%;
-}
-.cont1 h1{
+.subhead h1{
 	font-size: 80px;
 	font-weight: 580;
+	
 }
-.subcont1 button{
+.subcont button{
 	background-color: white;
 	border: 1px solid black;
 	height: 38px;
 	width: 190px;
 	font-size: 18px;
 }
+.subcont button:hover{
+	background-color: black;
+	color: white;
+}
+
+/* Main Content */
 .maincontent{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	padding: 50px 0 50px 0;
+	width: 60%;
 }
-.maincontent .container{
-	display: inline;
-	margin: 0 10%;
+.maincontent .container1 .col1{
+	width: 49%;
+	display: inline-block;
+	padding: 0 10px 40px 10px;
+}
+.maincontent .mid-image img{
+	width: 100%;
+}
+.maincontent .container2 .col2{
+	width: 33%;
+	display: inline-block;
+	padding: 40px 10px 0 10px;
 }
 
-
-
-
-
-
+/* Footer */
 footer{
 	margin: 50px 0 100px 0;
+	width: 60%;
 }
 footer .contact{
-	width: 12%;
+	width: 15%;
 }
 footer .copy{
 	text-align: center;
